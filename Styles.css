@@ -432,6 +432,20 @@ footer {
         bottom: 0;
     }
 }
+@media (max-width: 317px){
+    header img {
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        margin-top: 0.4rem;
+        left: 0;
+    }
+    header h1{
+        font-size: 1.7rem;
+        margin-left: 2.6rem;
+        
+    }
+}
 @keyframes transition{
     from{
         opacity: 0;
