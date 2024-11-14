@@ -410,6 +410,7 @@ footer {
     }
 
     dialog button {
+        text-decoration: none;
         display: block;
         background-color: rgb(95, 91, 91);
         padding: 14px;
