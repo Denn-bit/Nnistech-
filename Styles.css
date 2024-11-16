@@ -120,6 +120,7 @@ nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
+    place-items: center;
 }
 
 #Ourservices .box-container .box{
