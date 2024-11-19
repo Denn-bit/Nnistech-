@@ -33,6 +33,7 @@ nav {
 }
 
 nav ul {
+    animation: transition 2s;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -68,11 +69,8 @@ nav ul li a:hover {
     background-position: center;
 }
 
-
-
 #Home h3{
     word-wrap: break-word;
-    animation: transition 5s;
     color: white;
     margin-top: 10rem;
     margin-left: 45rem;
@@ -80,6 +78,7 @@ nav ul li a:hover {
     font-style: italic;
     font-family:serif;
     text-align: center;
+    animation: slideIn 2s ease-out forwards;
 }
 
 .AboutUs h2{
@@ -458,5 +457,13 @@ footer {
     to{
         opacity: 1;
         transform: rotateX('0');
+    }
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
     }
 }
