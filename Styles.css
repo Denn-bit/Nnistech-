@@ -232,6 +232,7 @@ footer {
     }
 
     header {
+        animation: transition 2s;
         background-color: #333;
         display: flex;
         text-align: center;
@@ -296,7 +297,7 @@ footer {
         height: 80vh;
     }
     .Home h3 {
-        animation: transition 3s;
+        animation: slideIn 2s ease-out forwards;
         word-wrap: break-word;
         font-size: 2.5rem;
         margin: 2rem auto;
