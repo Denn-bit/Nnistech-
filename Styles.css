@@ -10,6 +10,7 @@ body {
 }
 
 header {
+    animation: transition 2s;
     background-color: #333;
     color: white;
     text-align: center;
